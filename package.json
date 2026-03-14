@@ -1,0 +1,22 @@
+{
+  "name": "notifiactionservice",
+  "version": "1.0.0",
+  "description": "notification for movie api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "mongoose": "^9.1.5",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.13",
+    "nodemon": "^3.1.11"
+  },
+  "type": "module"
+}
